@@ -5,8 +5,6 @@ Napisz program do kompresji i dekompresji ciągu znaków, który zawiera poniżs
   2. decompress(string), która o dtwarza oryginalny tekst ze skompresowanego
 """
 
-# Bartłomiej Domański
-
 def compress(txt):
     if not txt.isalpha():
         return None
